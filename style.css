@@ -1,0 +1,106 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+.grid-even-columns {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 60em){
+  .grid-even-columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.box1{
+  font-size: 1rem;
+  background-color: floralwhite;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 32px 64px 10px 10px;
+ 
+}
+.box2{
+  font-size: 1rem;
+  background-color: floralwhite;
+  border-color: 3px rebeccapurple;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 32px 64px 10px;
+
+}
+
+.box3{
+  font-size: 1rem;
+  background-color: floralwhite;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 32px 64px 10px;
+
+}
+.box4{
+  font-size: 1rem;
+  background-color: floralwhite;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 32px 64px 10px;
+
+}
+
+body{
+  background-color:lavender ;
+}
+
+fieldset{
+  margin: 0 auto;center the fieldset horizontally;
+}
+
+.conversion{
+  border: 2px solid lavender;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+legend{
+  text-align: center;
+  color:orchid ;
+}
+
+flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+p,h4{
+  text-align: center;
+  color:mediumpurple;
+}
+
+ul, ol{
+  color: mediumpurple;
+}
+
+h1,h2,h3,h5{
+  text-align:center;
+  color:rebeccapurple;
+}
+
+.One_chai{
+  font-family: 'Brush Script MT', cursive;
+  text-align:center;
+  color:rebeccapurple;
+}
